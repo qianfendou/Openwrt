@@ -12,3 +12,9 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/tty228/luci-app-serverchan.git package/serverchan
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/adguardhome
+git clone https://github.com/linkease/istore.git package/istore
+git clone https://github.com/fatelpc/luci-theme-edge.git package/edgetheme
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/infinityfreedom
